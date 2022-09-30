@@ -19,8 +19,27 @@
     width: 100%;
   }
 
+  .container {
+    max-width: 320px;
+    width: 100%;
+  }
+
   .saopaulo {
     display: block;
+  }
+
+  .saopaulo {
+    display: block;
+  }
+
+  section {
+    margin-bottom: 150px;
+  }
+
+  footer {
+    position: static;
+    position: absolute;
+
   }
 }
 
@@ -43,7 +62,42 @@
     width: 100%;
   }
 
+  .container {
+    max-width: 320px;
+    width: 100%;
+  }
+
+
   .saopaulo {
     display: block;
   }
+
+  section {
+    margin-bottom: 150px;
+  }
+
+  footer {
+    position: static;
+    position: absolute;
+
+  }
 }
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  
+  section {
+    margin-bottom: 150px;
+  }
+
+  .container {
+    max-width: 769px;
+    width: 100%;
+  }
+  
+  footer {
+    position: static;
+    position: absolute;
+  }
+}
+

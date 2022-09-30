@@ -37,7 +37,12 @@
     margin-bottom: 50px;
   }
 
+  section {
+    margin-bottom: 150px;
+  }
+
   footer {
+    position: static;
     position: absolute;
   }
 }
@@ -79,7 +84,31 @@
     margin-bottom: 50px;
   }
 
+  section {
+    margin-bottom: 150px;
+  }
+
   footer {
+    position: static;
     position: absolute;
+  }
+  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  
+  section {
+    margin-bottom: 150px;
+  }
+
+  .container {
+    max-width: 769px;
+    width: 100%;
+  }
+  
+  footer {
+    position: static;
+    position: absolute;
+
   }
 }

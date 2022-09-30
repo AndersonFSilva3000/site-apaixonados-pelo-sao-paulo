@@ -37,8 +37,9 @@
     text-align: center;
   }
 
-  section .container {
+  .container {
     max-width: 310px;
+    width: 100%;
   }
 
   .saopaulo {
@@ -85,7 +86,7 @@
 
   .container {
     width: 100%;
-    margin: 0px auto;
+    max-width: 320px;
   }
 
   section h2 {
